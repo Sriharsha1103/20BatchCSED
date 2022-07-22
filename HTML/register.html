@@ -1,0 +1,52 @@
+<!-- Author -->
+<html>
+    <head>
+        <h1>Customer Registration</h1>
+        
+    </head>
+    <body>
+        <form action="OnClick">
+            <input type="text" placeholder="username" required pattern="[A-Za-z]+" maxlength="15" autofocus/>
+            <br/>
+            <br/>
+            <input type="password" placeholder="Password" required minlength="8" maxlength="12" pattern="[A-Za-z0-9]+" />
+            <br/>
+            <br/>
+            <input type="email" placeholder="e-mail" />
+            <br/>
+            <br/>
+            <label>Gender:</label><br/>
+            <input type="radio" name="gender" />
+            <label>Male</label>
+            <input type="radio" name="gender" />
+            <label>Female</label>
+            <input type="radio" name="gender" />
+            <label>others</label><br/>
+            <br/>
+            <label>Age(inYears):</label>
+            <input type="number" min="12" max="60"/><br/>
+            <br/>
+            <label>Address:</label>
+            <textarea rows="10" cols="40">
+            </textarea><br/><br/>
+            <label>Company Website:</label>
+            <input type="url" name="url"/>
+            <br/><br/>
+            <label>Choose Country: </label>
+            <select> 
+                <option value="ind" >India</option>
+                <option value="usa">USA</option>
+                <option value="ger">Germany</option>
+                <option value="jpn">Japan</option>
+            </select><br/>
+            <br/>
+            <label>Date of journey:</label>
+            <input type="date" id="doj" name="doj"/>
+            <br/>
+            <br/>
+            <input type="submit" value="Submit"/>
+            <input type="reset" value="Reset"/>
+
+         </form>
+    </body>
+</html>
