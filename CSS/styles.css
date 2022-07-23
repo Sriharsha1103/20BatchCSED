@@ -1,0 +1,17 @@
+h1 {
+    color: purple;
+
+}
+
+#displayMessage {
+    color: blue;
+}
+
+.select-1 {
+    color: red;
+    
+}
+
+p {
+    font-size: 100%; /* 1em, 1rem, 100% = 16px */
+}
