@@ -1,0 +1,61 @@
+* { font-family: "Arial Black", Gadget, sans-serif;}
+
+div * { font-family: "Comic Sans MS", cursive, sans-serif; }
+
+.sitelink { font-family: Georgia, serif; }
+
+#tonyquote{
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: black;
+}
+
+p.sitelink {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: black;
+}
+
+span#tonyname {
+  font-family: "Times New Roman", Times, serif;
+  color: blue;
+}
+
+#tutorials ol li {
+  color: purple;
+}
+/* Descendents */
+#tutorials ul li {
+  color: green;
+}
+
+/* +  Immediate element*/
+h3 + p{
+  font-style: italic;
+  color:aqua;
+}
+
+/* , Common elements */
+h1 , h2, h3{
+  text-decoration: underline;
+  color:red;
+}
+/* >  Immediate child/children*/
+h3 + p > a{
+  background: yellow;
+}
+/* Attribute Selectors */
+a[href]{
+  color:blueviolet;
+}
+
+a[href~='youtube.com']{
+  color: pink;
+}
+
+[alt~='nintendo']{
+  background-color: yellow;
+}
+/* Pseudo Classes */
+#tonyname:hover{
+  background:gray;
+}
+
