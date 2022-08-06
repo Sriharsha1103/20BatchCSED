@@ -1,0 +1,21 @@
+.content-small{
+    border: 0.2em solid blue;
+    position: absolute;
+    width:100px;
+    padding:20px;
+    height:150px;
+}
+
+.overflow-content{
+    overflow-y:scroll;
+    overflow-x: scroll;
+    /* overflow: none, visible, hidden, scroll */
+}
+
+.butterfly-small{
+    width: 70px;
+    height: 50px;
+    overflow-x: scroll;
+    overflow-y:hidden;
+
+}

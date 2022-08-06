@@ -47,3 +47,14 @@
     top:10px;
     left:100px;
 }
+
+#fixed-pos{
+    position:fixed;
+    bottom: 50px;
+    left:100px;
+}
+
+#sticky{
+    position: sticky;
+    top:50px;
+}
