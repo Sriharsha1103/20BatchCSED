@@ -1,0 +1,22 @@
+.container {
+    border: 1px solid black;
+    width: 100%;
+    height: 700px;
+    padding: 16px;
+    margin: 16px;
+    background-image:
+    conic-gradient(rgba(255,0,0,1),
+    white, green, blue);
+    border-radius: 50%;
+}
+
+/* 
+Linear Gradient - straight line
+linear-gradient(direction,rgba(255,0,0,0.2), white, blue);
+        direction: top, bottom, left, right 
+Radial Gradient - from the center
+radial-gradient(size, rgba(255,0,0,1), white, blue);
+        size: closest-side, closest-corner, farthest-side, farthest-corner
+Conic Gradient 
+conic-gradient(rgba(255,0,0,1),
+    white, green, blue);*/
