@@ -1,0 +1,25 @@
+.container div{
+    border: .1em solid black;
+    padding:10px;
+    margin: 5px;
+}
+
+.container{
+    display:flex;
+    border:0.2em dashed blue;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.box-1{
+    flex: 1;
+    order:3;
+}
+.box-2{
+    flex:2;
+    order:1;
+}
+.box-3{
+    flex:1;
+    order:2;
+}
